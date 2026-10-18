@@ -1,0 +1,94 @@
+
+.dependency-graph {
+    width: 100%;
+    color: #e2e8f0;
+}
+
+.graph-search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.graph-search input {
+    flex: 1;
+    min-width: 220px;
+    padding: 11px 12px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #0f172a;
+    color: #f8fafc;
+    font-size: 14px;
+}
+
+.graph-search input:focus {
+    outline: 2px solid #38bdf8;
+    outline-offset: 1px;
+}
+
+.graph-search button {
+    padding: 10px 16px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.graph-search button:hover {
+    background: #1d4ed8;
+}
+
+.graph-search .clear-search {
+    background: #334155;
+}
+
+.graph-search-message {
+    min-height: 20px;
+    margin: 8px 0 12px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.graph-canvas {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    background: #0b1120;
+}
+
+/* Make React Flow toolbar buttons visible on the dark theme. */
+.graph-canvas .react-flow__controls {
+    background: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+.graph-canvas .react-flow__controls-button {
+    width: 32px;
+    height: 32px;
+    background: #1e293b;
+    color: #ffffff;
+    fill: #ffffff;
+    border-bottom: 1px solid #475569;
+}
+
+.graph-canvas .react-flow__controls-button svg {
+    fill: none;
+    stroke: #ffffff;
+}
+
+.graph-canvas .react-flow__controls-button:hover {
+    background: #334155;
+}
+
+.graph-canvas .react-flow__minimap {
+    border: 1px solid #475569;
+    border-radius: 8px;
+    overflow: hidden;
+}
